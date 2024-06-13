@@ -1,0 +1,27 @@
+06/13/2024 11:51:54 AM New customer interaction detected
+06/13/2024 11:51:54 AM Inventory Restocked
+06/13/2024 11:52:06 AM Displayed Items
+06/13/2024 11:53:47 AM New customer interaction detected
+06/13/2024 11:53:47 AM Inventory Restocked
+06/13/2024 11:57:58 AM New customer interaction detected
+06/13/2024 11:57:58 AM Inventory Restocked
+06/13/2024 12:05:09 PM New customer interaction detected
+
+06/13/2024 12:05:09 PM Inventory Restocked
+
+06/13/2024 12:05:14 PM Purchase Menu accessed
+
+06/13/2024 12:05:29 PM FEED MONEY: $20 $20
+06/13/2024 12:05:44 PM Grain Waves A3 $2.75 $17.25
+06/13/2024 12:06:33 PM Cowtales B2 $1.5 $15.75
+06/13/2024 12:07:03 PM Cola C1 $1.25 $14.5
+06/13/2024 12:07:52 PM GIVE CHANGE: $14.5 $0.00
+06/13/2024 12:07:52 PM GIVE CHANGE: $14.5 $0.00
+06/13/2024 12:08:34 PM Purchase Menu accessed
+
+06/13/2024 12:08:42 PM FEED MONEY: $5 $53
+06/13/2024 12:08:49 PM Stackers A2 $1.45 $3.55
+06/13/2024 12:09:48 PM FEED MONEY: $8 $11.55
+06/13/2024 12:09:53 PM Triplemint D4 $0.75 $10.8
+06/13/2024 12:12:20 PM GIVE CHANGE: $10.8 $0.00
+06/13/2024 12:12:20 PM GIVE CHANGE: $10.8 $0.00
