@@ -8,7 +8,6 @@ import java.util.*;
 
 public class VendingMachine {
     private final DecimalFormat df = new DecimalFormat("#.##");
-    private final File INVENTORY_FILE = new File("resources/vendingmachine.csv");
     private final Map<String, Product> inventory = new HashMap<>();
     private BigDecimal balance = BigDecimal.ZERO;
     private BigDecimal totalSales = BigDecimal.ZERO;
