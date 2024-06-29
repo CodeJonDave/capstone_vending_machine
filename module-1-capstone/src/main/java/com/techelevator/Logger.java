@@ -1,6 +1,9 @@
 package com.techelevator;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -9,7 +12,9 @@ public class Logger {
     private static final File LOG_FILE = new File("logs/log.txt");
     private static final String SALES_REPORT_DIR = "logs/sales-reports/";
 
-    private Logger() {}
+
+    private Logger() {
+    }
 
     // Singleton method to ensure only one instance of Logger exists
     public static Logger getInstance() {
@@ -19,8 +24,9 @@ public class Logger {
         return instance;
     }
 
+
     // Logs an action with a timestamp and description to the log file
-    public void logAction(LocalDateTime time, String action) {
+    public static void logAction(LocalDateTime time, String action) {
         try (PrintWriter writer = new PrintWriter(new FileOutputStream(LOG_FILE, true))) {
             writer.println(time.format(DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss a")) + " " + action);
         } catch (FileNotFoundException e) {
@@ -28,8 +34,9 @@ public class Logger {
         }
     }
 
+
     // Logs an error message with a timestamp to the log file
-    public void logError(String error) {
+    public void logError(LocalDateTime now, String error) {
         try (PrintWriter writer = new PrintWriter(new FileOutputStream(LOG_FILE, true))) {
             writer.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss a")) + " ERROR: " + error);
         } catch (FileNotFoundException e) {
@@ -38,7 +45,7 @@ public class Logger {
     }
 
     // Generates and logs a sales report to a specific file
-    public void logSalesReport(VendingMachine vendingMachine, LocalDateTime time) {
+    public static void logSalesReport(VendingMachine vendingMachine, LocalDateTime time) {
         File salesReportDir = new File(SALES_REPORT_DIR);
         if (!salesReportDir.exists()) {
             salesReportDir.mkdirs();  // Creates directory if it doesn't exist
