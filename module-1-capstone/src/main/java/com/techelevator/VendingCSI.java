@@ -47,7 +47,7 @@ public class VendingCSI {
                 break;
             case "3":
                 // Log sales report and exit the program
-                Logger.logSalesReport(VENDING_MACHINE,LocalDateTime.now());
+                Logger.logSalesReport(VENDING_MACHINE, LocalDateTime.now());
 
                 return false;
             case "4":
@@ -102,11 +102,13 @@ public class VendingCSI {
     private static void feedMoney() {
         System.out.println("Please enter a whole dollar amount (press enter to go back):");
         String input = USER_INPUT.nextLine();
-        if (!input.isEmpty()) {
+       if (!input.isEmpty()) {
             try {
                 int amount = Integer.parseInt(input);
                 if (amount < 0) {
                     System.out.println("Please enter a positive amount.");
+                } else if (amount > 1000) {
+                    System.out.println("Please enter a smaller amount.");
                 } else {
                     VENDING_MACHINE.addMoney(amount);
                     System.out.println("Your new balance is: " + VENDING_MACHINE.getBalance());

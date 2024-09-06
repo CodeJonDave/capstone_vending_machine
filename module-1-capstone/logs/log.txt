@@ -25,3 +25,41 @@
 06/13/2024 12:09:53 PM Triplemint D4 $0.75 $10.8
 06/13/2024 12:12:20 PM GIVE CHANGE: $10.8 $0.00
 06/13/2024 12:12:20 PM GIVE CHANGE: $10.8 $0.00
+08/08/2024 08:44:28 AM New customer interaction detected
+08/08/2024 08:44:28 AM Inventory Restocked
+08/08/2024 08:44:36 AM Displayed Items
+08/08/2024 08:45:42 AM New customer interaction detected
+08/08/2024 08:45:42 AM Inventory Restocked
+08/08/2024 08:45:49 AM Displayed Items
+08/08/2024 08:46:20 AM FEED MONEY: $10 $10.00
+08/08/2024 08:46:47 AM Wonka Bar B3 $1.50 $8.50
+08/08/2024 08:47:18 AM Crunchie B4 $1.75 $6.75
+08/08/2024 08:47:22 AM GIVE CHANGE: $6.75 $0.00
+08/08/2024 08:48:14 AM New customer interaction detected
+08/08/2024 08:48:14 AM Inventory Restocked
+08/08/2024 08:49:17 AM GIVE CHANGE: $0.00 $0.00
+08/08/2024 08:50:01 AM FEED MONEY: $1000 $1,000.00
+08/08/2024 08:50:06 AM GIVE CHANGE: $1,000.00 $0.00
+08/08/2024 08:50:22 AM FEED MONEY: $100000 $100,000.00
+08/08/2024 08:50:26 AM GIVE CHANGE: $100,000.00 $0.00
+08/08/2024 08:51:18 AM FEED MONEY: $1000000 $1,000,000.00
+08/08/2024 08:51:23 AM GIVE CHANGE: $1,000,000.00 $0.00
+08/08/2024 08:51:37 AM FEED MONEY: $1000000000 $1,000,000,000.00
+08/08/2024 08:53:52 AM New customer interaction detected
+08/08/2024 08:53:52 AM Inventory Restocked
+08/08/2024 08:57:12 AM New customer interaction detected
+08/08/2024 08:57:12 AM Inventory Restocked
+08/08/2024 08:59:32 AM New customer interaction detected
+08/08/2024 08:59:32 AM Inventory Restocked
+08/08/2024 09:00:51 AM New customer interaction detected
+08/08/2024 09:00:51 AM Inventory Restocked
+08/08/2024 09:04:08 AM New customer interaction detected
+08/08/2024 09:04:08 AM Inventory Restocked
+08/08/2024 09:04:48 AM FEED MONEY: $10 $10.00
+08/08/2024 09:04:55 AM Cloud Popcorn A4 $3.65 $6.35
+08/08/2024 09:05:00 AM Cloud Popcorn A4 $3.65 $2.70
+08/08/2024 09:05:29 AM Heavy C4 $1.50 $1.20
+08/08/2024 09:06:06 AM Triplemint D4 $0.75 $0.45
+08/08/2024 09:06:41 AM FEED MONEY: $1000 $1,000.45
+08/08/2024 09:08:41 AM FEED MONEY: $1 $1,001.45
+08/08/2024 09:08:54 AM Returned to purchase menu
